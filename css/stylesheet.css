@@ -56,3 +56,11 @@
     display: inline-block;
     padding: 10px;
 }
+#second {
+    text-align: center;
+}
+
+#front_image {
+    width: 600px;
+    height: 300px;
+}
