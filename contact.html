@@ -2,16 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript" src="script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="crossorigin="anonymous"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-    <title>Galway BandB</title>
+    <title>The Emerald Isle</title>
   </head>
   <body>
     <div id="back">
       <div id="menu">
           <ul id="header_menu">
             <a href="/index.html"><li>Home</li></a>
-            <a href="/Rooms.html"><li>Rooms</li></a>
+            <a href="/rooms.html"><li>Rooms</li></a>
             <a href="/attractions.html"><li>Attractions</li></a>
             <a href="/testimonials.html"><li>Testimonials</li></a>
             <a href="/links.html"><li>Links</li></a>
@@ -19,9 +22,32 @@
             <a href="/contact.html" class="active"><li>Contact Us</li></a>
           </ul>
       </div>
-      <div id="second">
-      </div>
-      <div id="third">
+
+      <div class="container">
+        <fieldset id="contact_form_fieldset">
+          <legend id="contact_us">Contact Us</legend>
+          <form action="" method="post" id="contact_form">
+            <p>
+              <label for="customer_name" class="form_labels">Name:</label>
+              <input type="text" name="customer_name" id="username" required/>
+            </p>
+            <p>
+              <label for="customer_email" class="form_labels">Email:</label>
+              <input type="text" name="customer_email" id="email" required/>
+            </p>
+            <p>
+              <label for="customer_phone" class="form_labels">Phone:</label>
+              <input type="text" name="customer_phone" id="phone" required/>
+            </p>
+            <p>
+              <label for="customer_comment" style="vertical-align: top;" class="form_labels">Comments:</label>
+              <textarea name="customer_comment" id="customer_comment" cols="50" rows="10" required></textarea>
+            </p>
+            <p>
+              <input type="button" name="submit" value="Submit" id="submitbutton" onClick="alert('Submitted.');"/>
+            </p>
+          </form>
+        </fieldset>
       </div>
     </div>
     <div id="footer">
