@@ -100,21 +100,46 @@
   margin: auto;
   border: 3px solid black;
   border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #contact_form {
   width: 30%;
   font-size: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #contact_us {
   font-style: italic;
   font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#faq {
+  width: 80%;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+#faq h4, h5{
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+#faq p{
+  font-size: 15px;
+  margin-left: 10px;
 }
 
 #map {
   width: 50%;
   margin: auto;
+}
+
+#google_map {
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 10px 10px 15px 10px rgba(0, 0, 0, 0.2);
 }
 
 #testimonials {
@@ -154,4 +179,28 @@
   text-align: justify;
   font-style: italic;
   color: blue;
+}
+
+#trip_ad {
+  background-color: #bbcce8;
+  width: 60%;
+  margin: auto;
+  height: auto;
+  border-radius: 20px;
+  margin-top:50px;
+}
+
+#trip_ad p {
+  padding: 40px 40px 50px 40px;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+#trip_ad img {
+  width: 40%;
+  height: auto;
+  margin: auto;
+  padding-bottom: 40px;
+  padding-left: 40px;
 }
